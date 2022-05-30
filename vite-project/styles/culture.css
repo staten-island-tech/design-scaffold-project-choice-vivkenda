@@ -501,12 +501,16 @@ font-size: 1.75rem;
   display: flex;
   justify-content: center;
 }
-
   .square-grid img {
     width: 20vw;
     height: 25vh;
   }
-
+  .square-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+  }
   .holidays1 {
     flex-wrap: wrap;
   }
@@ -537,7 +541,7 @@ font-size: 1.75rem;
   }
 
   .grid-text p{
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     display: flex;
     width: 100%;}
 
@@ -570,8 +574,14 @@ font-size: 1.75rem;
   .timeline{
     transform: translateX(-30%);
   }
-
  
+  .grid-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+  }
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -581,8 +591,10 @@ font-size: 1.75rem;
   .img {
 width: 80vw;  }
 .heading{
-
   margin-top: 30%;
+}
+.square-grid{
+  margin-left: 30vw;
 }
 }
 

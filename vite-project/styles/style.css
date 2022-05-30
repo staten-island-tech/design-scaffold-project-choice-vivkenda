@@ -387,7 +387,7 @@ a:visited {
   .text-box h1 {
     font-size: 5rem;
   }
-  img.img3 {
+  img, .img3 {
     display: none;
   }
   .top-imgs {
