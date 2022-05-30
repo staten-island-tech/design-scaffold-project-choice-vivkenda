@@ -99,41 +99,42 @@ header {
   justify-content: center;
   margin-top: 85rem;
 }
+.flex-map {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 140rem;
+  margin-left: -10rem;
+}
 .china-subheader {
-  position: absolute;
+  flex: 1;
   font-family: var(--font-family);
   font-size: 8.5rem;
-  font-weight: 80px;
   transform: rotate(-90deg);
-  top: 180rem;
-  left: 3rem;
+  text-align: right;
 
   color: white;
   background-color: #f25e5e;
   line-height: 14rem;
-  text-align: right;
+  padding-left: 50rem;
   padding-right: 5rem;
-  padding-left: 45rem;
 }
 .subheader1 {
-  position: absolute;
   font-family: var(--font-family);
-  font-size: 4rem;
-  width: 1rem;
-  top: 150rem;
-  left: 54rem;
+  font-size: 4.5rem;
+  flex: 1;
+  margin-left: -30rem;
+  padding-bottom: 60rem;
 }
 .mapOfChina {
-  width: 90rem;
-  position: absolute;
-  top: 155rem;
-  left: 68rem;
+  margin-top: 10rem;
+  margin-right: 25rem;
 }
-
 .facts {
   display: flex;
   align-items: center;
-  margin-top: 233rem;
+  margin-top: 5rem;
   justify-content: center;
 
   font-family: var(--font-family);
@@ -382,41 +383,14 @@ a:visited {
     }
   }
 
-.toggle .line1{
-transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2{
-opacity: 0;
-}
-.toggle .line3{
-transform: rotate(45deg) translate(-5px, -6px);
-}
-
-}
-@media screen and (max-width: 414px) {
-  .navbar {
-  }
-  header {
-    width: 100%;
-    height: 70rem;
-  }
+@media only screen and (max-width: 375px) {
   .text-box h1 {
-    font-size: 8rem;
-  }
-  .text-box h2 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
   img.img3 {
     display: none;
   }
   .top-imgs {
-    margin-top: 54rem;
-  }
-  .mapOfChina {
-    display: none;
-  }
-  .more-info {
-    display: flex;
-    flex-direction: column;
+    
   }
 }

@@ -92,8 +92,8 @@ header {
   justify-content: center;
   align-items: center;
   height: 35vh;
-  margin-bottom: 18rem;
-  margin-top: 15rem;
+  margin-bottom: 6rem;
+  margin-top: 20rem;
 }
 
 .content {
@@ -127,10 +127,10 @@ header {
   display: flex;
   padding: 6rem;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 }
 
 .row {
@@ -140,19 +140,21 @@ header {
 
 .grid-text {
   transform: translate(0, 2rem);
-  margin-right: 4rem;
+  margin-right: 10rem;
+  margin-left: 15rem;
 }
 .grid-text h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 3.25rem;
+  margin-bottom: 5rem;
 }
 .grid-text p {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  margin-bottom: 5rem;
 }
 
 .square-grid {
   text-align: center;
+  margin-right: 15rem;
 }
 
 .card {
@@ -160,7 +162,7 @@ header {
   justify-content: center;
 }
 
-.square-grid img {
+.square-grid img { 
   width: 20vw;
   height: 35vh;
   object-fit: cover;
@@ -205,29 +207,28 @@ transition: opacity 0.6s;
 
 /*Holidays Section*/
 .holiday-header{
-  font-size: 5rem;
+  font-size: 5.5rem;  
   text-align: center;
-margin-bottom: 3rem;
- 
+  margin-bottom: 10rem;
 }
+
 .holidays1,
 .holidays2 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 65%;
+  width: 60%;
   margin: auto;
 }
 
 .holiday-title {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 .holiday-date {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-top: 1rem;
 }
 .holiday-description {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-top: 1rem;
 }
 .img {
@@ -270,8 +271,8 @@ margin-bottom: 3rem;
 .traditions-header{
   font-size: 3.5rem;
   text-align: center;
-padding-top: 4rem;
-margin-top: 3rem;
+padding-top: 10rem;
+
 }
 .grid-card{
   height: 36rem;
@@ -332,11 +333,12 @@ opacity: 0.6;border-radius: 2rem;}
   text-align: center;
   padding: 4rem 0;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 10rem auto;
+  
 }
 .top-section p{
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 .timeline{
   position: relative;
@@ -583,5 +585,6 @@ width: 80vw;  }
   margin-top: 30%;
 }
 }
+
 
 
